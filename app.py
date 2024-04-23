@@ -51,4 +51,4 @@ def predict():
     return jsonify({'predicted_class': predicted_class, 'probabilities': probabilities_class})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
